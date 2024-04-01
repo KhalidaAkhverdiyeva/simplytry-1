@@ -8,20 +8,28 @@
     <link rel="icon" href="/photos/bracelet.png">
 <body>
     <!--This is the Head Section-->
-    <header>
-      <h1>Welcome to Glitters</h1>
-      <nav>
-        <ul>
-            <li><a href="https://www.wikipedia.org/">About</a></li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#Contacts">Contacts</a></li>
-        </ul>
+    <div class="header">
+
+    
+    <header >
+        <nav id="yellownav">
+        
+            <a href="https://www.wikipedia.org/">About</a>
+            <a href="#Services">Services</a>
+            <a href="#Contacts">Contacts</a>
+        
       </nav>
+      <br>
+      <h1 class="basliq">Welcome to Glitters</h1>
+      
     </header>
+    </div>
     <!--This is the Content Section-->
 
     <main>
-        <div id="about">
+        <div class="container">
+            <div id="about">
+            <img id="userpic" src="./photos/user (1).png" alt="userpic">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti iusto, incidunt, aut, aspernatur beatae pariatur soluta impedit inventore ea autem suscipit fugiat at? Impedit facilis, labore facere accusantium optio velit!
             Vitae quibusdam placeat harum quisquam corrupti tempore provident minus expedita dolore unde. Aut dolores magnam, eligendi perspiciatis odio architecto vel reiciendis dicta rem et numquam a eaque, non nam. Quos?
@@ -29,6 +37,7 @@
 
         </div>
         <div id="services">
+            <img id="phoneicon" src="./photos/network.png" alt="phoneicon">
             <h2>Our Services</h2>
             <ul>
                 <li>Web page design</li>
@@ -38,6 +47,7 @@
 
         </div>
         <div id="contact">
+            <img id="paperplane" src="./photos/paper-plane.png" alt="papaerplane">
             <h2>Contact Us</h2>
             <form action="action_page.php" method="post">
                 <div>
@@ -105,18 +115,7 @@
                     </select>
                 </div>
                 <br>
-                <div>
-                    <label for="vehicle1">I have a bike</label>
-                    <input type="checkbox" id="vehicle1" name="vehicle1"><br>
-
-                    <label for="vehicle2">I have a car</label>
-                    <input type="checkbox" id="vehicle2" name="vehicle2"><br>
-
-                    <label for="vehicle3">I have a boat</label>
-                    <input type="checkbox" id="vehicle3" name="vehicle3s"><br>
-
-
-                </div>
+              
 
                 <br>
 
@@ -125,6 +124,9 @@
                     <input type="submit">
                 </div>
             </form>
+
+
+        </div>
 
         </div>
 
